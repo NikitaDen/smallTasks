@@ -1,5 +1,18 @@
 .App {
   text-align: center;
+  background: linear-gradient(#282c34, crimson);
+  height: 200vh;
+}
+
+button {
+  position: fixed;
+  padding: .5rem 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  border-radius: 1rem;
+  font-weight: bold;
 }
 
 .App-logo {
